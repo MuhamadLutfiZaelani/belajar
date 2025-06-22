@@ -187,6 +187,7 @@ public class Main {
         Perpustakaan perpustakaan = new Perpustakaan(100);
 
         perpustakaan.tambahBuku(new Buku("Belajar Git", "Aggresia Retha"));
+        perpustakaan.tambahBuku(new Buku("From Zero to Advance C++", "Muhamad Lutfi Zaelani"));
 
         Admin admin = new Admin("Admin1", "A001");
         Member member = new Member("Member1", "M001");
@@ -258,4 +259,3 @@ public class Main {
     }
 
  }
-
